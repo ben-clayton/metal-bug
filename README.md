@@ -16,6 +16,13 @@ The bug can be reproduced with:
 cd build # if you're not in ./build already
 MTL_SHADER_VALIDATION=0 ./metal-bug
 ```
+
+Which will give the output:
+
+```
+2021-08-04 16:29:03.392 metal-bug[57948:563874] Failed to created pipeline state object, error Error Domain=CompilerError Code=2 "Compiler encountered an internal error" UserInfo={NSLocalizedDescription=Compiler encountered an internal error}.
+```
+
 The bug can be worked around by either:
 
 * Running with `MTL_SHADER_VALIDATION=1`.
