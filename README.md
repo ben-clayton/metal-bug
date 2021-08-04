@@ -1,5 +1,14 @@
 # Example project of a Metal shader compiler bug
 
+## Reproduced on:
+
+```
+ Big Sur 11.5.1 (20G80)
+ Model Name: MacBook Pro
+ Model Identifier: MacBookPro16,1
+ Processor Name: 8-Core Intel Core i9
+```
+
 ## Building
 
 ```bash
